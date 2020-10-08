@@ -18,4 +18,7 @@ ox문제
 __+beside besides keyword추가
 :LCL9_17_07
 _-Qtext로 변경
+=========
+회계
+timeout시 redAlert추가
 
