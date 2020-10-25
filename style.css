@@ -365,6 +365,16 @@
 	 font-size: 2.0rem;
     }
 
+
+ span.hanja , .hj{
+
+    font-size: 2.2rem;
+    color: black;
+	line-height: 1.5rem;
+  }
+
+
+
   span.title  {
      
      margin:2px;
