@@ -1,8 +1,4 @@
 
-한국사
-세조
-이시애의 난을 계기로 유향소 폐지
-
 성종
 유향소 복립운동 by사림
 ---------
@@ -21,4 +17,6 @@ _-Qtext로 변경
 =========
 회계
 timeout시 redAlert추가
-
+-----
+로컬 알림
+https://app-developer.tistory.com/175
