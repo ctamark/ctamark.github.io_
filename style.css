@@ -22,22 +22,22 @@
         font-size: large;
       }
 
+     @font-face {
+        font-family:'IropkeBatang';
+        src:url('./IropkeBatangM.eot');
 
+      }
 
       pre {
 
           font-size: 0.95rem;
-          font-family: 'nanumgothic';
+          font-family: 'IropkeBatang';
 		  padding:10px;
 		  
 		  overflow: auto;
           white-space: pre-wrap; /* pre tag내에 word wrap */
 		  		  
       }
-	  
-	  @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
-
-
 
 /* 폰트 이름에 작은 따움표 '' 꼭 붙여야 합니다*/
       div.formula {
