@@ -18,14 +18,28 @@
         font-size: medium;
       }
 
-      div.c {
-        font-size: large;
-      }
+   
+
+
+/*
+ white-space:
+ pre-wrap; 공백 그대로 표시, enter줄바꿈 O, 자동줄바꿈O
+ pre; 공백그대로 표시, enter줄바꿈 O, 자동줄바꿈 X
+ normal; 띄어쓰기 1칸, enter줄바꿈X, 자동줄바꿈O
+*/
+
 
      @font-face {
         font-family:'IropkeBatang';
         src:url('./IropkeBatangM.eot');
 
+      }
+
+     div.notice {
+        font-size: medium;
+        font-family: 'IropkeBatang';
+        padding: 5px;
+	white-space: pre-wrap; /* pre tag내에 word wrap */
       }
 
       pre {
