@@ -38,7 +38,9 @@
      div.notice {
         font-size: medium;
         font-family: 'IropkeBatang';
+	     
         padding: 5px;
+	overflow: auto;
 	white-space: pre-wrap; /* pre tag내에 word wrap */
       }
 
