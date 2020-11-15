@@ -166,12 +166,18 @@
 	 
 
 
+   
       div.book{
-      display:table;
-       background-color:#696969;
+       display:table;
+       background-color:#D9D9D9;
        width: 100%;
-	   font-size: 0.90rem;
- 
+	   font-size: 0.95rem;
+
+/*
+	   font-weight:bold;
+       font-family: Courier;*/
+
+        color:black;
       }
 
       div.book_L {
@@ -179,7 +185,7 @@
       display: table-cell;
       padding:2px;
 
-      color:white;
+
 
       border-right : 1px solid black;
       width: 46%;
@@ -191,12 +197,13 @@
       display: table-cell;  
       padding:2px;
       
-      color:white;
+      color:black;
 
       border-left : 1px solid black;
       
  
      }
+
 
      div.t_book ,.t_book_LR{
        display:table;
