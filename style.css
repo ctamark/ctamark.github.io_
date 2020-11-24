@@ -56,39 +56,7 @@
       }
 
 /* 폰트 이름에 작은 따움표 '' 꼭 붙여야 합니다*/
-      div.formula {
-
-       padding-left:5pt;
-       padding-top:10pt;
-       padding-bottom:5pt;
-	   
-	   font-size: small; 
-
-       font-family: '돋움';
-       color:white; 
-       background-color:black;
-       width:90%;
-       border-radius: 2em;
-         
-      }
-	  
-	  pre.math {
-
-       font-family: Courier;
-	   font-size:0.9em;
-		  
-	  }
-
-      div.study_point {
-
-       padding:10px;
-       background-color:black;
-       color:orange; 
-       width:80%;
-       border-radius: 2em;
-         
-      }
-
+ 
 
      div.solve, .keyword{
        padding-left: 5px;
@@ -239,111 +207,7 @@
      }
 
 
-      div.formula_0 , .formula_0_LR {
-      display:table;
-       background-color:#696969;
-       width: 90%;
  
-      }
-
-      div.formula_0_L {
-
-      display: table-cell;
-      padding:5px;
-
-      color:white;
-      vertical-align:middle;
-      text-align:right; 
-
-
-      }
- 
-     div.formula_0_R {
-
-      display: table-cell;  
-      padding:5px;
-
-      color:white;
-
-      vertical-align:middle;
-      text-align:left; 
- 
-     }
-
-     div.formula_1_LR {
-      display:table;
-       background-color:#696969;
-       width: 100%;
- 
-      }
-
-      div.formula_1_L {
-
-      display: table-cell;
-      padding:0px;
-
-      color:white;
-      vertical-align:top;
-      text-align:left; 
-	  font-size:0.9em;
-
-
-      }
- 
-     div.formula_1_R {
-
-      display: table-cell;  
-      padding:2px;
-
-      color:white;
-
-      vertical-align:top;
-      text-align:left; 
-	  
-	  font-size:0.9em;
-
- 
-     }
-
-
-
-    
-    div.formula_1_UB {
-      display:table;
-       background-color:#696969;
-       width: 95%;
- 
-      }
-
-      div.formula_1_U {
-
-      display: table-row;
-      padding:2px;
-
-      color:white;
-      vertical-align:middle;
-      text-align:left; 
-
-
-      }
- 
-     div.formula_1_B {
-
-      display: table-row;  
-	  	  
-      padding-bottom:2px;
-
-      color:white;
-
-      vertical-align:middle;
-      text-align:left; 
-	  font-size: 0.9em;
- 
-     }
-
-
-
-
 
     span.q{
 
@@ -386,6 +250,24 @@
     }
  
 
+span.label_s , .label_1, .label-1 {
+
+     margin:2px;
+     padding: 0;
+     font-size: 1.2rem;
+	 line-height: 1.5rem;
+     color: black;
+	 font-weight: bold;
+  }
+  
+  span.label_m, .label_2, .label-2 {
+
+   padding: 0;
+    font-size: 1.5rem;
+	line-height: 1.8rem;
+    color: black;
+	 font-weight: bold;
+  }
 
    /*big*/
   span.big  {
