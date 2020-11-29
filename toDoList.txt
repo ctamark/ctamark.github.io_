@@ -1,4 +1,6 @@
 
+swift table batch loading
+https://fluffy.es/prefetching/
 ---------
 세법
 NTL9_2017_13
