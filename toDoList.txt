@@ -32,5 +32,9 @@ protected void onCreate(@Nullable Bundle savedInstanceState)
     getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 }
 ===================
-
- 
+In the flim,
+they had to make a little boy 5 years old
+So the characters could have that kind of dialogue. 
+When I was expriencing this experience,
+My little boy was two...
+So he was still in diapers.
