@@ -1,4 +1,7 @@
 
+한국사.android 
+직렬 연도별 기출 풀다가 꿀벌?광고 나오면 담힘이나 구매버튼자체가 작동안해서 앱도 끌수 밖에 없어요 
+----
 swift table batch loading
 https://fluffy.es/prefetching/
 ---------
