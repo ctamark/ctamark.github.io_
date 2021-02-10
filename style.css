@@ -383,15 +383,8 @@ span.label_s , .label_1, .label-1 {
    
   /*   font-family: 'Nanum Gothic';	*/
 
-    P.p1 {
-		  	
-    margin-top:2px;
-    padding-top:0px;
-    padding-left:10px;
-    font-size:0.96em;
-	line-height:1.3rem
-   }
-   
+  
+  
    p.keyword {
 
      margin-top:5px;
