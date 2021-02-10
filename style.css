@@ -58,7 +58,7 @@
 /* 폰트 이름에 작은 따움표 '' 꼭 붙여야 합니다*/
  
 
-     div.solve, .keyword{
+     div.solve{
        padding-left: 5px;
        border-left : 3px solid gray;
        text-align: top;
@@ -392,11 +392,17 @@ span.label_s , .label_1, .label-1 {
 	line-height:1.3rem
    }
    
-     P.p2 {
-		
-    font-family: Nanum Gothic;		
-    margin-top:2px;
-    padding-top:0px;
-    padding-left:12px;
-    font-size:0.92em;
-   }
+   p.keyword {
+
+     margin-top:5px;
+           padding: 5px;
+           font-size:0.85rem;
+           line-height:1.3rem;
+
+           color:black;
+
+           overflow:auto;
+           white-space: pre-wrap;
+           background-color:#EBFBEB;
+
+          }
