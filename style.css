@@ -286,6 +286,13 @@ span.label_s , .label_1, .label-1 {
 	line-height: 1.5rem;
   }
 
+ span.hj-s{
+
+    font-size: 1.8rem;
+    color: black;
+    margin: 2px;
+	line-height: 1.6rem;
+  }
 
 
   span.title  {
