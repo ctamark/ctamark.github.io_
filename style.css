@@ -406,3 +406,19 @@ span.label_s , .label_1, .label-1 {
            background-color:#EBFBEB;
 
           }
+
+
+div.keyword-div {
+
+           margin-top:5px;
+           padding: 5px;
+           font-size:0.90rem;
+           line-height:1.3rem;
+
+           color:black;
+
+           overflow:auto;
+           white-space: pre-wrap;
+           background-color:#EBFBEB;
+
+          }
