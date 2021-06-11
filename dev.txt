@@ -1,3 +1,11 @@
 
 
 "@<kwd>#----</kwd>@(<---키워드를 보려면 터치하세요)"
+
+
+do {
+   let resultNumber = try object.func_xxx()
+} catch {
+   
+   print(error)
+}
