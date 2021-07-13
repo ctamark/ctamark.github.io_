@@ -13,6 +13,7 @@ https://typecast.ai/service/policy
  @<u>옳지 않은 것</u>@
  @<u>옳은 것</u>@
 
+@<questionImage>{true}
 
 "@<kwd>#공동사업_소득금액계산_특례</kwd>@(<---키워드를 보려면 터치)"
 
