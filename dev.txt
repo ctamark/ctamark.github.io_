@@ -15,6 +15,11 @@ https://typecast.ai/service/policy
 
 @<questionImage>{true}
 
+
+
+"@<kwd>한 단어 대잔치</kwd>@(키워드 보려면 노란영역 터치)",
+
+
 "@<kwd>#공동사업_소득금액계산_특례</kwd>@(<---키워드를 보려면 터치)"
 
 "@<kwd>#도치(S+V➔V+S)</kwd>@(<--키워드 보려면 노란영역 터치)"
