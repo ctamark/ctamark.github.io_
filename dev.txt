@@ -12,6 +12,8 @@ https://typecast.ai/service/policy
 @<e></e>@
  @<u>옳지 않은 것</u>@
  @<u>옳은 것</u>@
+ 
+ @<b2> </b2>@
 
 @<questionImage>{true}
 
