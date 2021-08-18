@@ -7,6 +7,8 @@ https://typecast.ai/service/policy
 
 ㎡
 
+甲(갑) 乙(을)  丙(병) 丁(정)
+
 @<word>{ } 
 </word>@
 
