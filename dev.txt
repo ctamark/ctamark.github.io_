@@ -43,7 +43,7 @@ https://typecast.ai/service/policy
 
 "@<kwd>#서긍_고려도경</kwd>@(<--키워드 보려면 터치)",
 
-[X]➔
+@<r> [X]</r>@➔
 
 @<r> </r>@
 @<b1> </b1>@
