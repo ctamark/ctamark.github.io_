@@ -1,0 +1,865 @@
+﻿ /*주석은 이렇게 달아요*/
+
+/*
+태그이름#아이디 { 속성1:속성값; 속성2:속성값; } 
+태그이름.클래스명1, .클래스명2 { 속성1:속성값; 속성2:속성값; }
+.클래스명#아이디 { 속성1:속성값; 속성2:속성값; }
+
+
+공백삽입: &nbsp;
+*/
+
+      div.a {
+	   color:#686868;
+        font-size: medium;
+        text-align: left;
+      }
+
+      div.b {
+
+        color:#787878;
+        font-size: medium;
+		text-align: left;
+		margin-left: 10;
+      }
+
+
+
+     @font-face {
+        font-family:'IropkeBatang';
+        src:url('../html/IropkeBatangM.woff');
+
+      }
+
+
+/*
+pre-wrap : 공백을 그대로 표시하며 박스의 영역을 벗어나지 않고 줄바꿈합니다.
+pre-line : 공백을 하나로 처리하고 박스를 벗어나지 않습니다.
+normal  : 연속된 공백을 하나로 처리하고 박스를 벗어나지 않기 위해 줄바꿈을
+*/
+
+         div.answer , .keywordnote{
+
+              color:#686868;
+              font-size: 0.95rem;
+              text-align: left;
+
+              margin: 0px;
+              padding-top: 0px;
+
+              overflow: auto;
+
+              font-family: 'IropkeBatang';
+              white-space: pre-wrap; /* pre tag내에 word wrap */
+
+            }
+
+
+           div.notice{
+
+              color:black;
+              font-size: 0.90rem;
+              text-align: left;
+
+              overflow: auto;
+
+              font-family: 'IropkeBatang';
+              white-space: pre-wrap; /* pre tag내에 word wrap */
+
+            }
+
+
+      pre {
+
+          font-size: 0.95rem;
+          font-family: 'IropkeBatang';
+		  padding:5px;
+
+		  line-height:1.4rem;
+
+		  overflow: auto;
+          white-space: pre-wrap; /* pre tag내에 word wrap */
+
+      }
+
+
+
+
+/* 폰트 이름에 작은 따움표 '' 꼭 붙여야 합니다*/
+      div.formula {
+
+       padding-left:5pt;
+       padding-top:10pt;
+       padding-bottom:5pt;
+	   
+	   font-size: small; 
+
+       font-family: '돋움';
+       color:white; 
+       background-color:black;
+       width:90%;
+       border-radius: 2em;
+         
+      }
+	  
+	  pre.math {
+
+       font-family: Courier;
+	   font-size:0.95rem;
+	   color: black;
+		  
+	  }
+
+	   p.math {
+
+       font-family: Courier;
+	   font-size:0.93rem;
+	   color: black;
+        margin: 0px;
+	    padding: 0px;
+	   }
+
+      div.study_point {
+
+       padding:10px;
+       background-color:black;
+       color:orange; 
+       width:80%;
+       border-radius: 2em;
+         
+      }
+
+
+     div.solve{
+       padding-left: 5px;
+       border-left : 3px solid gray;
+       text-align: top;
+	   font-size:0.95rem;
+     
+      }
+
+    /* column 2개 */
+     div.solve_col_2{
+       display: table;
+       padding-left: 5px;
+       border-left : 3px solid gray;
+       text-align: top;
+      
+      }
+
+     div.solve_col_L {
+     display: table-cell;
+     padding-right:15px;
+     text-align: right;
+    
+    
+      }
+ 
+     div.solve_col_R{
+       display: table-cell;
+       text-align: left;
+       padding-left:10px;
+     
+      }
+
+
+
+   /* 암산 연습 */
+
+    div.math_note{
+       display:table;
+       background-color:#C9C9C9;
+       width: 95%;
+	   font-family: Courier;
+ 
+      }
+
+      div.math_note_L {
+
+      display: table-cell;
+      padding:5px;
+
+      font-size: medium;
+
+      color:black;
+
+      border-right : 1px solid black;
+      width: 42%;
+
+      }
+ 
+     div.math_note_R {
+
+      display: table-cell;  
+      padding:5px;
+      
+      font-size: medium;
+
+      color:black;
+
+      border-left : 1px solid black;
+      width: 42%;
+ 
+     }
+	 
+
+
+      div.book{
+       display:table;
+       background-color:#D9D9D9;
+       width: 100%;
+	   font-size: 0.95rem;
+
+/*
+	   font-weight:bold;
+       font-family: Courier;*/
+
+        color:black;
+      }
+
+      div.book_L {
+
+      display: table-cell;
+      padding:2px;
+
+
+
+      border-right : 1px solid black;
+      width: 46%;
+
+      }
+ 
+     div.book_R {
+
+      display: table-cell;  
+      padding:2px;
+      
+      color:black;
+
+      border-left : 1px solid black;
+      
+ 
+     }
+
+     div.t_book ,.t_book_LR{
+       display:table;
+
+       font-size: 0.90rem;
+       color:black;
+       background-color:#C9C9C9;
+       width: 90%;
+       vertical-align:top;
+      
+    }
+
+      div.t_book_L {
+
+      display: table-cell;
+      padding:5px;
+      border-top   : 5px solid black;  
+      border-right : 3px solid black;
+      width: 40%;
+
+      }
+ 
+     div.t_book_R {
+
+      display: table-cell;
+      padding:5px;
+
+      border-top : 5px solid black;  
+      border-left : 3px solid black;
+
+      width: 40%;
+ 
+     }
+
+
+      div.formula_0 , .formula_0_LR {
+      display:table;
+       background-color:#C9C9C9;
+       width: 90%;
+ 
+      }
+
+      div.formula_0_L {
+
+      display: table-cell;
+      padding:5px;
+
+      color:black;
+      vertical-align:middle;
+      text-align:right; 
+
+
+      }
+ 
+     div.formula_0_R {
+
+      display: table-cell;  
+      padding:5px;
+
+      color:black;
+
+      vertical-align:middle;
+      text-align:left; 
+ 
+     }
+
+     div.formula_1_LR {
+      display:table;
+       background-color:#696969;
+       width: 100%;
+ 
+      }
+
+      div.formula_1_L {
+
+      display: table-cell;
+      padding:0px;
+
+      color:white;
+      vertical-align:top;
+      text-align:left; 
+	  font-size:0.9em;
+
+
+      }
+ 
+     div.formula_1_R {
+
+      display: table-cell;  
+      padding:2px;
+
+      color:white;
+
+      vertical-align:top;
+      text-align:left; 
+	  
+	  font-size:0.9em;
+
+ 
+     }
+
+
+
+    
+    div.formula_1_UB {
+      display:table;
+       background-color:#696969;
+       width: 95%;
+ 
+      }
+
+      div.formula_1_U {
+
+      display: table-row;
+      padding:2px;
+
+      color:white;
+      vertical-align:middle;
+      text-align:left; 
+
+
+      }
+ 
+     div.formula_1_B {
+
+      display: table-row;  
+	  	  
+      padding-bottom:2px;
+
+      color:white;
+
+      vertical-align:middle;
+      text-align:left; 
+	  font-size: 0.9em;
+ 
+     }
+
+
+
+    span.accent {
+     
+     padding:5px;
+     background-color:yellow;
+     font-weight:bold;
+    }
+
+
+     span.e {
+
+         margin:2px;
+         padding:2px;
+    
+         background-color:#f1f197;
+
+      }
+   
+    span.green {
+     
+     margin:2px;
+     padding:0px;
+     color:black;
+	 line-height:1.5rem;
+     background-color:#D3FAD2
+    }
+
+    span.bold {
+
+     margin:2px;
+     padding:0px;
+     color:black;
+	 line-height:1.5rem;
+     font-weight: bold;
+
+    }
+
+    span.chapter-title {
+
+       font-size: 2.0rem;
+       color: black;
+       font-weight: bold;
+
+    }
+
+
+    span.size0 {
+
+     font-size: 0.92em;
+
+    }
+
+
+    span.size1 {
+
+     font-size: 1.1rem;
+
+    }
+
+
+    span.size2 {
+
+     font-size: 1.3rem;
+
+    }
+
+    span.size3 {
+
+     font-size: 1.6rem;
+
+    }
+
+    span.size4 {
+
+     font-size: 2.0rem;
+
+    }
+
+
+ span.white {
+     
+	 font-size: 0.95rem;
+     margin:2px;
+     padding:0px;
+     color:black;
+	 line-height:1.4rem;
+     background-color:white
+    }
+
+
+    span.math {
+
+      font-family: 'Courier';
+
+    }
+
+
+/*em : 상위 요소기준 */
+/*rem : 최상위 요소기준 */
+
+span.number {
+
+     font-size: 1.2rem;
+	 line-height: 1.0rem;
+     color: black;
+	 font-weight: bold;
+
+}
+
+ b {
+
+     font-size: 1.0rem;
+	 line-height: 1.0rem;
+     color: black;
+	 font-weight: bold;
+  }
+
+
+ span.label_s , .label_1, .label-1{
+
+     margin:2px;
+     padding: 0;
+     font-size: 1.2rem;
+	 line-height: 1.5rem;
+     color: black;
+	 font-weight: bold;
+  }
+  
+  span.label_m , .label_2 , .label-2 {
+
+   padding: 0;
+    font-size: 1.5rem;
+	line-height: 1.8rem;
+    color: black;
+	 font-weight: bold;
+  }
+
+  span.label_big , .label_3, .big{
+
+    font-size: 2.0rem;
+    color: black;
+	line-height: 1.5rem;
+	 font-weight: bold;
+  }
+
+
+  span.book {
+     
+	 line-height:1.5rem;
+     padding:1px;
+     color:black;
+	 font-size:1.0rem;
+     background-color: #E7E7E7;
+    }
+
+ span.small {
+
+  line-height:1.2rem;
+      padding:1px;
+      color:black;
+  	 font-size:0.9em;
+
+ }
+
+
+  span.blue {
+ 
+     font-size:1.2rem;
+	 line-height:1.2rem;
+     margin:2px;
+     padding:2px;
+     color:white;
+     background-color:#3390FF;
+    }
+ 
+
+
+   span.yellow {
+     
+     margin:0px;
+     padding:0px;
+     color:black;
+	 line-height:1.4rem;
+     background-color:#efefa8;
+    }
+
+   
+    span.gray {
+     
+     margin:2px;
+     padding:2px;
+     color:white;
+     background-color:gray;
+
+ 
+    }
+
+
+    span.red {
+
+     margin:1px;
+     padding:0px;
+     font-size: 1.0rem;
+	 line-height:1.5rem;
+     color:red;
+     background-color:#FFEBEB;
+ 
+    }
+
+
+ span.mid {
+
+     font-size: 1.5rem;
+     margin:0px;
+     padding:0px;
+	 line-height:1.4rem;
+     color:black;
+     background-color:white;
+     font-weight: bold;
+
+
+    }
+
+
+
+    span.b, .black{
+
+      margin:0px;
+     padding:0px;
+     font-size: 1.1rem;
+	 line-height:1.5rem;
+     color:black;
+     background-color:white;
+     font-weight: bold;
+
+
+    }
+
+
+
+
+  span.q{
+
+     font-size: 1.1rem;
+     color:black;
+     font-weight: bold;
+     line-height:1.5rem;
+     background-color:#E7E7E7;
+ 
+    }
+
+  span.line{
+
+     white-space: normal;
+
+    }
+
+
+      span.line_r{
+
+         font-size: 0.96rem;
+         line-height:1.5rem;
+         color:black;
+         background-color:white;
+         white-space: normal;
+
+         background-color:#FBEBEB;
+
+        }
+
+     span.law{
+
+         font-size: 0.96rem;
+         line-height:1.5rem;
+         color:black;
+         background-color:#FBEBEB;
+         white-space: pre-wrap;
+
+        }
+
+
+    U {
+
+
+     margin:0px;
+     padding:2px;
+
+     color:black;
+     text-decoration : none;
+     border-bottom : 2px solid #FF0000;
+     padding-bottom : 0px;
+	 line-height: 1.5rem;
+   
+    }
+     
+
+    U.r {
+
+     text-decoration : none;
+     border-bottom : 2px solid #FF0000;
+
+     margin-top: 5px; 
+     padding-bottom : 0px; 
+   
+    }
+
+   U.cancel {
+
+     text-decoration: line-through;
+	  border-bottom : 2px solid #FFFFFF;
+     padding-bottom : 2px; 
+   }
+
+    ul.no_dot {
+   
+    list-style:none;
+
+   }
+   
+   ul.type1 {
+	      margin:0;
+   }
+
+   li.type1 {
+	   
+	   margin: 0;
+	   padding:0;
+   }
+   
+  /*   font-family: 'Nanum Gothic';	*/
+
+    P.p1 {
+		  	
+    margin-top:2px;
+    padding-top:0px;
+    padding-left:10px;
+    font-size:0.96em;
+	line-height:1.3rem;
+   }
+   
+     P.p2 {
+		
+    font-family: Nanum Gothic;		
+    margin-top:2px;
+    padding-top:0px;
+    padding-left:12px;
+    font-size:0.92em;
+   }
+
+
+
+     p.law {
+
+       margin-top:2px;
+       padding-top:0px;
+       padding-left:5px;
+       font-size:0.95em;
+       line-height:1.3rem;
+
+       overflow:auto;
+       white-space: pre-wrap; /* pre tag내에 word wrap */
+       color:black;
+       background-color:#FBEBEB;
+
+      }
+
+/* overflow:auto하지 않으면 white-space:normal적용안됨*/
+
+     p.law-line {
+
+       margin-top:2px;
+       padding-top:0px;
+       padding-left:5px;
+       font-size:0.95em;
+       line-height:1.3rem;
+
+       overflow:auto;
+       white-space: normal;
+       color:black;
+       background-color:#FBEBEB;
+
+      }
+
+
+     div.law-div {
+
+       margin-top:2px;
+       padding-top:0px;
+       padding-left:5px;
+       font-size:0.95em;
+       line-height:1.3rem;
+
+       overflow: auto;
+       white-space: pre-wrap; /* pre tag내에 word wrap */
+       color:black;
+       background-color:#FBEBEB;
+
+      }
+
+
+
+     p.answer-line {
+
+       margin-top:0px;
+       padding-top:0px;
+       padding:5px;
+       font-size:0.95em;
+       line-height:1.3rem;
+
+       white-space: normal;
+       color:black;
+       background-color:#FBFBFB;
+
+      }
+
+
+
+
+  p.small , .keyword {
+
+       margin-top:2px;
+       padding-top:0px;
+       padding-left:2px;
+       font-size:0.9em;
+       line-height:1.3rem;
+
+       overflow: auto;
+       white-space: pre-wrap; /* pre tag내에 word wrap */
+       color:black;
+       background-color:#EBFBEB;
+
+      }
+
+
+  div.keyword-div {
+
+       margin-top:2px;
+       padding-top:0px;
+       padding-left:2px;
+       font-size:0.95rem;
+       line-height:1.3rem;
+
+       overflow: auto;
+       white-space: pre-wrap; /* pre tag내에 word wrap */
+       color: #707070;
+       background-color:white;
+
+       border: 2px dotted red;
+
+      }
+
+   div.bgcolor-gray {
+
+       background-color:#d2d2d0;
+
+   }
+
+    div.bgcolor-green {
+
+          background-color:#EBFBEB;
+
+   }
+
+
+   div.bgcolor-pink {
+
+            background-color:#FBEBEB;;
+
+   }
+
+
+
+   div.bgcolor-yellow {
+
+            background-color:#f8f8be;
+   }
+
+   div.line {
+
+       overflow: auto;
+       white-space: normal; /* pre tag내에 word wrap */
+
+     }
+
+
