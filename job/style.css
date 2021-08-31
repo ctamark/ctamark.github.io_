@@ -817,13 +817,13 @@ span.number {
        margin-top:2px;
        padding-top:0px;
        padding-left:2px;
+       padding-right:2px;
        font-size:0.95rem;
        line-height:1.3rem;
-
        overflow: auto;
        white-space: pre-wrap; /* pre tag내에 word wrap */
        color: #707070;
-       background-color:white;
+       background-color:#fdeeec;
 
        border: 2px dotted red;
 
