@@ -34,6 +34,11 @@ https://typecast.ai/service/policy
 ⓐ ⓑ ⓒ ⓓ ⓔ ⓕ ⓖ ⓗ ⓘ ⓙ ⓚ ⓛ ⓜ ⓝ ⓞ ⓟ ⓠ ⓡ ⓢ ⓣ ⓤ ⓥ ⓦ ⓧ ⓨ ⓩ
 ⒜ ⒝ ⒞ ⒟ ⒠ ⒡ ⒢ ⒣ ⒤ ⒥ ⒦ ⒧ ⒨ ⒩ ⒪ ⒫ ⒬ ⒭ ⒮ ⒯ ⒰ ⒱ ⒲ ⒳ ⒴ ⒵
 
+<span class="big">❝</span>
+<span class="big">❞</span>
+
+@<big>❝</big>@
+@<big>❞</big>@
 
 "@<kwd>한 단어 대잔치</kwd>@(키워드 보려면 노란영역 터치)",
 
