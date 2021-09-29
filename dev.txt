@@ -12,6 +12,15 @@ https://typecast.ai/service/policy
 <손산> 전기 대손충당금 한도초과 3 (△유보)
 <손不> 대손충당금 한도초과 3(유보)
  
+<span class="bold size1"> </span>
+<span class="bold size2"> </span>
+<span class="bold size3"> </span>
+<span class="bold size4"> </span>
+
+<span class="bold size0"> </span>
+
+ 
+ 
 @<word>{ } 
 </word>@
 
