@@ -21,7 +21,11 @@ https://typecast.ai/service/policy
 
 <div class="keyword-div"> </div>
 
- 
+@<n>지문①</n>@
+@<n>지문②</n>@
+@<n>지문③</n>@
+@<n>지문④</n>@
+
  
 @<word>{ } 
 </word>@
