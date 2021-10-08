@@ -27,6 +27,15 @@ https://typecast.ai/service/policy
 @<n>지문④</n>@
 
  
+@<b>㉠</b>@ 
+@<b>㉡</b>@ 
+@<b>㉢</b>@ 
+@<b>㉣</b>@ 
+@<b>㉤</b>@
+@<b>㉥</b>@ 
+@<b>㉦</b>@ 
+@<b>㉧</b>@
+ 
 @<word>{ } 
 </word>@
 
