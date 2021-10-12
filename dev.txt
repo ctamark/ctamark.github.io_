@@ -41,14 +41,21 @@ https://typecast.ai/service/policy
 @<word>{ } 
 </word>@
 
-@<g></g>@
-@<e></e>@
- @<u>옳지 않은 것</u>@
- @<u>옳은 것</u>@
+@<u>옳지 않은 것</u>@
+@<u>옳은 것</u>@
  
+@<g> </g>@
+@<e> </e>@
+@<u> </u>@
+
+ @<b1> </b1>@ 
  @<b2> </b2>@
 
-@<questionImage>{true}
+[X]➔@<r> </r>@
+
+@<r> </r>@
+
+@<question-img>
 
 ∙ ○ ◎ ● 
 ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮
@@ -86,11 +93,6 @@ https://typecast.ai/service/policy
 
 "@<kwd>#서긍_고려도경</kwd>@(<--키워드 보려면 터치)",
 
-[X]➔@<r> </r>@
-
-@<r> </r>@
-@<b1> </b1>@
-@<e> </e>@
 
 
 do {
