@@ -38,6 +38,15 @@ https://typecast.ai/service/policy
 @<b>㉦</b>@ 
 @<b>㉧</b>@
  
+<b>㉠</b>
+<b>㉡</b> 
+<b>㉢</b> 
+<b>㉣</b> 
+<b>㉤</b>
+<b>㉥</b> 
+<b>㉦</b> 
+<b>㉧</b> 
+ 
 @<word>{ } 
 </word>@
 
