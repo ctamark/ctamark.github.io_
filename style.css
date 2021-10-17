@@ -422,3 +422,80 @@ div.keyword-div {
            background-color:#EBFBEB;
 
           }
+
+
+   span.bold {
+     margin:2px;
+     padding:0px;
+     color:black;
+	 line-height:1.5rem;
+     font-weight: bold;
+
+    }
+
+   span.line{
+
+     white-space: normal;
+
+    }
+
+  span.size0 {
+
+     font-size: 0.95em;
+
+    }
+
+
+    span.size1 {
+
+     font-size: 1.2em;
+
+    }
+
+
+    span.size2 {
+
+     font-size: 1.5em;
+
+    }
+
+    span.size3 {
+
+     font-size: 1.8em;
+
+    }
+
+    span.size4 {
+
+     font-size: 2.0em;
+
+    }
+
+    span.e {
+
+      line-height:1.5rem;
+      margin:2px;
+      padding:2px;
+      background-color:#fef4bd;
+   }
+
+
+   .kwdlink {
+
+    color:black;
+    font-size: 1.8rem;
+    background-color:yellow;
+
+   }
+
+
+  .bg-green {
+
+      background-color:#EBFBEB;
+
+  }
+
+  .bg-pink {
+
+      background-color:#FBEBEB;
+  }
