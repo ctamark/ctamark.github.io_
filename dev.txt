@@ -25,7 +25,7 @@ https://typecast.ai/service/policy
 
 <div class="keyword-div"> </div>
 
-
+@<kwd># </kwd>@(키워드 보려면 터치)
 
 ＋ － ＜ ＝ ＞ ± × ÷ ≠ ≤ ≥ ∞
 
