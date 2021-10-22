@@ -8,6 +8,7 @@ https://typecast.ai/service/policy
 ㎡
 
 "chapter" : "grammar",
+"chapter" : "조선",
 
 갑(甲) 을(乙)  병(丙) 정(丁)
 
