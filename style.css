@@ -226,13 +226,13 @@
      font-weight:bold;
     }
    
-    span.accent_g, .green {
+    span.green {
      
      margin:2px;
      padding:2px;
      color:black;
 	 line-height:1.5rem;
-     background-color:lawngreen;
+     background-color:#D3FAD2
     }
 
 
