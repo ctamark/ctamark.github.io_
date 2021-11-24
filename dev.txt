@@ -3,6 +3,7 @@
 https://typecast.ai/service/policy
 ----
 https://wodyios.tistory.com/8?category=899459
+https://jubakong.medium.com/ios-swift-swift%EC%9D%98-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B4%80%EB%A6%AC%EA%B8%B0%EB%B2%95-arc-9bbba5840628
 (메모리 관리, weak 참조)
 https://wodyios.tistory.com/10
 https://caution-dev.github.io/ios/2019/12/02/DarkMode-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0.html
