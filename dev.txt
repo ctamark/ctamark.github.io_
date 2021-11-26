@@ -100,7 +100,7 @@ https://velog.io/@yijaee/%EB%8B%A4%ED%81%AC%EB%AA%A8%EB%93%9C-%EA%B5%AC%ED%98%84
  @<b3></b3>@ 
 
 
-[X]➔@<r> </r>@
+@<r>  [X]➔ </r>@
 
 @<r> </r>@
 
