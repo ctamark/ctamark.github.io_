@@ -1,5 +1,6 @@
 <html>
-<head>
+<head>	
+	
 <script type="text/javascript">
 
  function getVersion() {
@@ -10,13 +11,56 @@
  </script>
 
 <link rel="stylesheet" href="style.css">	
-    
+
+<style>
+ #dday {
+
+ background-color: black;
+ color: white;
+ font-size: 1.2rem;
+
+ }
+</style>	
+	
+	
 <TITLE>업데이트 정보</TITLE>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">	
 </head>
  <body>
+	 
+22년 공무원 9급 필기시험[4.2(토)]
+<div id="dday"></div>
+
+<script>
+function update_dday(){
+
+   var counter = document.getElementById("dday");
+   const today = new Date(); //현재 날짜 가져오기
+   const dday = new Date("2022-04-02T00:00:00+0900"); //디데이
+   const gap = dday - today;
+
+   const totalSeconds = gap/1000;
+
+   var mins =Math.floor((totalSeconds/60)%60); //분
+   var hours=Math.floor((gap/(1000*60*60))%24); //시
+   var day = Math.floor(gap / (1000 * 60 * 60 * 24));
+
+   var msg = day + '일 ' + hours +'시간' + mins + '분 남았음';
+
+   counter.innerHTML = msg;
+  }
+
+  update_dday();
+  setInterval(update_dday, 5000);
+
+</script>
+접수: 2.10(목)~2.12(토)
+	 
+	 
+	 
+	 
 <div class="notice">	
 <span class="red">[android_korean_ver:2.12]</span>
 (업데이트 예정..12월10일)	
