@@ -11,9 +11,17 @@
  </script>
  
 
- <style>
+<style>
 
-    </style>
+ #dday {
+
+ background-color: black;
+ color: white;
+ font-size: 1.2rem;
+
+ }
+</style>
+
 	
 <link rel="stylesheet" href="style.css">	
     
@@ -23,6 +31,48 @@
 </head>
 
 <BODY leftMargin=5 topMargin=5 >
+	
+국가직9급 필기(2022.4.2.)
+<div id="dday"></div>
+
+<script>
+
+function update_dday(){
+
+   var counter = document.getElementById("dday");
+   const today = new Date(); //현재 날짜 가져오기
+   const dday = new Date("2022-04-02T00:00:00+0900"); //디데이
+   const gap = dday - today;
+
+  // const totalSeconds = gap/1000;
+  // var mins =Math.floor((totalSeconds/60)%60); //분
+  // var hours=Math.floor((gap/(1000*60*60))%24); //시
+
+    var day = Math.ceil(gap / (1000 * 60 * 60 * 24));
+
+    //ceil 올림, floor 내림, round 반올림
+
+
+    var msg;
+     if (day >=0){
+
+       msg =  'D -' + day + '일';
+
+     }else {
+
+       msg =  'D +' + day + '일';
+
+     }
+
+    counter.innerHTML = msg;
+  }
+
+  update_dday();
+ // setInterval(update_dday, 5000);
+
+</script>
+접수: 2.10(목)~2.12(토)
+	
 <div class = "notice" >
 <span class="red">[android_english_ver: 153]</span>	
 정오표에 있는 사항을 반영함
