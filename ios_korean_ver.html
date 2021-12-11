@@ -1,7 +1,10 @@
 <HTML>
 <head>
     <style>
-      
+      .dday{
+background-color: black;
+color: white;	      
+}
       </style>
 
 <link rel="stylesheet" href="style.css">
@@ -13,10 +16,49 @@
 
 <BODY leftMargin=5 topMargin=2 >	
 <div class = "notice" >	
-<span class="red">(2.84)[공지.오류.정오]</span>	
+	22년 국가직9급 필기[4.2(토)]
+<div id="dday"></div>
 
+<script>
+function update_dday(){
+
+   var counter = document.getElementById("dday");
+   const today = new Date(); //현재 날짜 가져오기
+   const dday = new Date("2022-04-02T00:00:00+0900"); //디데이
+   const gap = dday - today;
+
+  // const totalSeconds = gap/1000;
+  // var mins =Math.floor((totalSeconds/60)%60); //분
+  // var hours=Math.floor((gap/(1000*60*60))%24); //시
+
+    var day = Math.ceil(gap / (1000 * 60 * 60 * 24));
+
+    //ceil 올림, floor 내림, round 반올림
+
+
+    var msg;
+     if (day >=0){
+
+       msg =  'D -' + day + '일';
+
+     }else {
+
+       msg =  'D +' + day + '일';
+
+     }
+
+    counter.innerHTML = msg;
+  }
+
+  update_dday();
+
+</script>
+접수: 2.10(목)~2.12(토)
+		
+	
 <span class="red">[ios_korean_ver:2.85]</span>	
-(업데이트 예정..12월10일)	
+(업데이트중...)	
+_키워드를 못 찾는 버그가 있어 수정 	
 [객관식문제] 
 : 군무원9.21추가(상춘곡 포함)
 [주요키워드] 군9.21관련 키워드를 추가	
@@ -28,23 +70,7 @@ _어쩌고저쩌고...
 <span class="red">[ios_korean_ver:2.84]</span>	
 지방직7급.2020년
 해설이 표시되지 않고 계속 로딩화면만 나오는 버그수정(불편드려 죄송)
----	
-<span class="red">[ios_korean_ver:2.83]</span>
-중세국어 관련 참고 그림이 나오지 않는 버그 수정
-[ox문제, 직렬관계없이 풀기]의 문제수를 랜덤 5~7문제로 변경
-일부 스크립트가 예전 버전으로 되어 있어서 교체
----
-[객관식 문제]
-: 지7.21 추가(시조, 중세국어 포함)
-[OX 문제]
-: 쬐끔 추가
-[기본암기장]
-: 일부 맞춤법 규정이 키워드로 이사감
-----	
-<span class="red">[ios_korean_ver:2.82]</span>	
-문제 중 {몰라그림}이 나오는 버그가 있어 수정함
-[기본 암기장]에서 선택안되는 버그가 있어 수정함(아이폰12 등) 
-: (터치에서 길게누르는(longPress)방식으로 변경)
+
 	
 </div>
 </BODY>
