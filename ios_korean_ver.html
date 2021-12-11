@@ -17,39 +17,43 @@
 
 <BODY leftMargin=5 topMargin=2 >	
 22년 국가직9급 필기[4.2(토)]
-<div id="dday"></div>
-접수: 2.10(목)~2.12(토)		
+<span id="dday"></span><br>
+(접수: 2.10(목)~2.12)
 
-<script>
+<script  language = "javascript">
 function update_dday(){
 
-   var counter = document.getElementById("dday");
-   const today = new Date(); //현재 날짜 가져오기
-   const dday = new Date("2022-04-02T00:00:00+0900"); //디데이
-   const gap = dday - today;
+var counter = document.getElementById("dday");
 
-  // const totalSeconds = gap/1000;
-  // var mins =Math.floor((totalSeconds/60)%60); //분
-  // var hours=Math.floor((gap/(1000*60*60))%24); //시
+var today = new Date(); //현재 날짜 가져오기
 
-    var day = Math.ceil(gap / (1000 * 60 * 60 * 24));
+// Date(year, month, day, hour, min, sec) // 2021년 7월 6일
+// month는 0부터 시작
+var dday = new Date(2022, 4-1, 2); //디데이
 
-    //ceil 올림, floor 내림, round 반올림
+//날짜와 시간 사이에 'T',
+//var dday = new Date("2022/04/02T00:00:00+0900").getTime(); //디데이
+var gap = dday - today;
 
 
-    var msg;
-     if (day >=0){
+var totalSeconds = gap/1000;
 
-       msg =  'D -' + day + '일';
+const day = Math.ceil(totalSeconds/(60 * 60 * 24));
+//ceil 올림, floor 내림, round 반올림
+                      
+var msg;
+if (day >=0){
 
-     }else {
+      msg =  'D -' + day + '일';
 
-       msg =  'D +' + day + '일';
+    }else {
 
-     }
+      msg =  'D +' + day + '일';
 
-    counter.innerHTML = msg;
-  }
+    }
+
+   counter.innerText = msg;
+}
 update_dday();
 </script>
 	
