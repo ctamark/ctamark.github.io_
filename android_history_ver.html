@@ -11,7 +11,17 @@
 		
  </script>
 	
-<link rel="stylesheet" href="style.css">	
+<link rel="stylesheet" href="style.css">
+	
+    <style>
+ #dday  {
+
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+
+}
+    </style>	
 
 <style>
 
@@ -29,37 +39,43 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<BODY leftMargin=5 topMargin=5 >
-22년 공무원 9급 필기시험[4.2(토)]
-<div id="dday"></div>
-
-<script>
-
-function update_dday(){
-
-   var counter = document.getElementById("dday");
-   const today = new Date(); //현재 날짜 가져오기
-   const dday = new Date("2022-04-02T00:00:00+0900"); //디데이
-   const gap = dday - today;
-
-   const totalSeconds = gap/1000;
-
-   var mins =Math.floor((totalSeconds/60)%60); //분
-   var hours=Math.floor((gap/(1000*60*60))%24); //시
-   var day = Math.floor(gap / (1000 * 60 * 60 * 24));
-
-   var msg = day + '일 ' + hours +'시간' + mins + '분 남았음';
-
-   counter.innerHTML = msg;
-  }
-
-  update_dday();
-  setInterval(update_dday, 5000);
-
-</script>
-접수: 2.10(목)~2.12(토)	
-	
+<BODY leftMargin=5 topMargin=5 >	
 <div class = "notice" >	
+	
+22년 국가직9급 필기[4.2(토)]
+<span id="dday"></span>
+(접수: 2.10(목)~2.12)
+<script  language = "javascript">
+    function update_dday(){
+
+    var counter = document.getElementById("dday");
+    var today = new Date(); //현재 날짜 가져오기
+    // Date(year, month, day, hour, min, sec) // 2021년 7월 6일
+    // month는 0부터 시작
+    var dday = new Date(2022, 4-1, 2); //디데이
+    var gap = dday - today;
+
+    var totalSeconds = gap/1000;
+
+    const day = Math.ceil(totalSeconds/(60 * 60 * 24));
+    //ceil 올림, floor 내림, round 반올림
+                  
+    var msg;
+    if (day >=0){
+
+    msg =  'D -' + day + '일';
+
+    }else {
+
+    msg =  'D +' + day + '일';
+
+    }
+
+    counter.innerText = msg;
+    }
+    update_dday();
+    </script>	
+	
 현버전(2.27)<span class="green">[공지,정오표,오류]</span> 
 <b>이익[성호사설]</b>아래 추가해야 함
 ●(서7.18)첨성촌에 은거하면서 견문한 내용을 백과사전식으로 저술했다.
