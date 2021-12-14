@@ -1,9 +1,14 @@
 <HTML>
 <head>
+	  
+	<style>
+ #dday  {
 
-    <style>
-   
-   
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+
+}
     </style>
     
 <link rel="stylesheet" href="style.css">	
@@ -16,11 +21,47 @@
 
 <BODY leftMargin=5 topMargin=5 >
 <div class = "notice" >
+22년 국가직9급 필기[4.2(토)]
+<span id="dday"></span>
+(접수: 2.10(목)~2.12)
+<script  language = "javascript">
+    function update_dday(){
+
+    var counter = document.getElementById("dday");
+    var today = new Date(); //현재 날짜 가져오기
+    // Date(year, month, day, hour, min, sec) // 2021년 7월 6일
+    // month는 0부터 시작
+    var dday = new Date(2022, 4-1, 2); //디데이
+    var gap = dday - today;
+
+    var totalSeconds = gap/1000;
+
+    const day = Math.ceil(totalSeconds/(60 * 60 * 24));
+    //ceil 올림, floor 내림, round 반올림
+                  
+    var msg;
+    if (day >=0){
+
+    msg =  'D -' + day + '일';
+
+    }else {
+
+    msg =  'D +' + day + '일';
+
+    }
+
+    counter.innerText = msg;
+    }
+    update_dday();
+    </script>	
+		
+	
 (경우에 따라 업데이트 알람이  표시되지 않을 수 있어요)
 (어플의 나의버전이 공지버전보다 낮으면 수동으로 업데이트하셔야 해요)	
---	
+<span class="red">공지.정오.오류</span>	
+[측정기준] 
+_보강적질적특성 중 적시성은 측정에 특별한 영향을 미치지 않는다.(추가해야함) 	
 <span class="red">ios_account_ver:1.36</span>
-(심사대기중...)	
 <b>[주요키워드]</b>
 iPad에서 스크롤이 제대로 되지 않는 버그가 있어 개선함
 ---
