@@ -11,6 +11,15 @@
  
 <link rel="stylesheet" href="style.css">	
     
+	    <style>
+ #dday  {
+
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+
+}
+    </style>
     
 <TITLE>회계학 기출 공지.정오표</TITLE>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -20,6 +29,40 @@
 
 <BODY leftMargin=5 topMargin=5 >
 <div class = "notice" >	
+22년 국가직9급 필기[4.2(토)]
+<span id="dday"></span>
+(접수: 2.10(목)~2.12)
+<script  language = "javascript">
+    function update_dday(){
+
+    var counter = document.getElementById("dday");
+    var today = new Date(); //현재 날짜 가져오기
+    // Date(year, month, day, hour, min, sec) // 2021년 7월 6일
+    // month는 0부터 시작
+    var dday = new Date(2022, 4-1, 2); //디데이
+    var gap = dday - today;
+
+    var totalSeconds = gap/1000;
+
+    const day = Math.ceil(totalSeconds/(60 * 60 * 24));
+    //ceil 올림, floor 내림, round 반올림
+                  
+    var msg;
+    if (day >=0){
+
+    msg =  'D -' + day + '일';
+
+    }else {
+
+    msg =  'D +' + day + '일';
+
+    }
+
+    counter.innerText = msg;
+    }
+    update_dday();
+    </script>	
+	
 (광고가 닫기 버튼을 눌러도 제대로 종료되지 않는 버그가 있어요)
 (광고모듈 문제인지 어플 문제인지 파악하고 있어요)
 -----
