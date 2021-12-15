@@ -35,40 +35,47 @@
 <span id="dday"></span>
 접수: 2.10(목)~2.12(토)
 
-<script>
+<script  language = "javascript">
 function update_dday(){
 
-   var counter = document.getElementById("dday");
-   const today = new Date(); //현재 날짜 가져오기
-   const dday = new Date("2022-04-02T00:00:00+0900"); //디데이
-   const gap = dday - today;
+var counter = document.getElementById("dday");
 
-  // const totalSeconds = gap/1000;
-  // var mins =Math.floor((totalSeconds/60)%60); //분
-  // var hours=Math.floor((gap/(1000*60*60))%24); //시
+var today = new Date(); //현재 날짜 가져오기
 
-    var day = Math.ceil(gap / (1000 * 60 * 60 * 24));
+// Date(year, month, day, hour, min, sec) // 2021년 7월 6일
+// month는 0부터 시작
+var dday = new Date(2022, 4-1, 2); //디데이
 
-    //ceil 올림, floor 내림, round 반올림
+//날짜와 시간 사이에 'T',
+//var dday = new Date("2022/04/02T00:00:00+0900").getTime(); //디데이
+var gap = dday - today;
 
 
-    var msg;
-     if (day >=0){
+var totalSeconds = gap/1000;
 
-       msg =  'D -' + day + '일';
+const day = Math.ceil(totalSeconds/(60 * 60 * 24));
+//ceil 올림, floor 내림, round 반올림
+                      
+var msg;
+if (day >=0){
 
-     }else {
+      msg =  'D -' + day + '일';
 
-       msg =  'D +' + day + '일';
+    }else {
 
-     }
+      msg =  'D +' + day + '일';
 
-    counter.innerText = msg;
-  }
+    }
 
-  update_dday();
-
+   counter.innerText = msg;
+}
+update_dday();
 </script>		
+<span class="red">[android_korean_ver:2.13]</span>
+(심사대기중)	
+단어장에 UI 버그가 있어서 수정
+일부 해설을 최근 키워드로 교체	
+	
 <span class="red">[android_korean_ver:2.12]</span>
 [객관식문제] 
 : 군무원9.21추가(상춘곡 포함)
