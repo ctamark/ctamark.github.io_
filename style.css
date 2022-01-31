@@ -47,6 +47,15 @@
 	white-space: pre-wrap; /* pre tag내에 word wrap */
       }
 
+    b {
+
+       padding:0px;
+       font-size: 1.0em;
+       line-height: 1.0rem;
+        color: black;
+       font-weight: bold;
+      }
+
       pre {
 
           font-size: 0.95rem;
