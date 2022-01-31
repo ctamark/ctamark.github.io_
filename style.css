@@ -36,9 +36,13 @@
       }
 
      div.notice, .keywordnote {
-        font-size: 0.95rem;
+  
+        background-color:#E1E1E1;
+        color: #757575;
+
+	font-size: 0.95rem;
         font-family: 'IropkeBatang';
-	     
+  	     
         padding: 5px;
 	overflow: auto;
 	white-space: pre-wrap; /* pre tag내에 word wrap */
