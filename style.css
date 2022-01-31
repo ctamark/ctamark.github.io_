@@ -35,6 +35,12 @@
 
       }
 
+     body {
+
+	      background-color:#E1E1E1;
+      }
+
+
      div.notice, .keywordnote {
   
         background-color:#E1E1E1;
@@ -219,9 +225,6 @@
  
      }
 
-
- 
-
     span.q{
 
      font-size: 1.1rem;
@@ -351,7 +354,7 @@ span.label_s , .label_1, .label-1 {
      margin:2px;
      padding:2px;
      color:black;
-     background-color:gray;
+     background-color:#e2e2e2;
      font-weight:bold;
  
     }
