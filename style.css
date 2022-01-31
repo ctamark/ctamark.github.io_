@@ -346,11 +346,11 @@ span.label_s , .label_1, .label-1 {
  
     }
 
-    span.accent_gray,.gray {
+    span.gray {
      
      margin:2px;
      padding:2px;
-     color:white;
+     color:black;
      background-color:gray;
      font-weight:bold;
  
