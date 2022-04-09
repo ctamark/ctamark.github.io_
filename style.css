@@ -408,21 +408,21 @@ span.label_s , .label_1, .label-1 {
 
   
   
-   p.keyword {
+   div.keyword-dot, .keyword {
 
-     margin-top:5px;
-           padding: 5px;
-           font-size:0.85rem;
-           line-height:1.3rem;
+           border: 2px dotted black;
 
-           color:black;
+		    background-color:#EcEcEc;
 
+		  color: #606060;
+           margin-top:5px;
+           padding: 2px;
+           font-size:0.98em;
+		   
            overflow:auto;
            white-space: pre-wrap;
-           background-color:#EBFBEB;
 
           }
-
 
 div.keyword-div {
 
